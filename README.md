@@ -1,9 +1,9 @@
 # DevScripts
 A collection of scripts to make a developer's life easier.
 
-zipChanges.bat : Generates a zip containing changes between two branches. If only one branch is specified, it will use the current branch as one of the branches.
+zipChanges.bat : Generates a zip containing files/directories changed/added between two branches and replicates the associated directory structures as well. If only one branch is specified, it will use the current branch as one of the branches.
 
-zipLocalChanges.bat : Generates a zip containing locally changed files
+zipLocalChanges.bat : Similar to zipChanges except that the zip contains locally changed files
 
 
 # Prerequesites
